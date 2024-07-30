@@ -11,7 +11,7 @@ public sealed class PlayerController : Component
 		}else if(Input.Pressed("Right") && currentPoint != 2){
 			currentPoint++;
 		}
-		
-		Transform.Position = Points[currentPoint].Transform.Position;
+
+		Transform.Position = Transform.Position.LerpTo( Points[currentPoint].Transform.Position, 0.1f );
 	}
 }

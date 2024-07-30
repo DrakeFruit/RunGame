@@ -1,9 +1,9 @@
 {
-  "Title": "ShitwayShitters",
+  "Title": "RunGame",
   "Type": "game",
-  "Org": "local",
-  "Ident": "shitwayshitters",
-  "Tags": null,
+  "Org": "drakefruit",
+  "Ident": "rungame",
+  "Tags": "run arcade clone singleplayer",
   "Schema": 1,
   "Resources": null,
   "PackageReferences": [],

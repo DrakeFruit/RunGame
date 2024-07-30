@@ -143,6 +143,100 @@
               "SkyColor": "0.05882,0.07451,0.08235,1"
             }
           ]
+        },
+        {
+          "__guid": "a7f76409-6893-4452-b9c7-79204561e515",
+          "Flags": 0,
+          "Name": "Object",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true
+        }
+      ]
+    },
+    {
+      "__guid": "9045f468-d881-4e4f-aa6b-cde1af82af9c",
+      "Flags": 0,
+      "Name": "Map Generator",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "Components": [
+        {
+          "__type": "MapGenerator",
+          "__guid": "ecb6bf56-0a68-4465-903e-814bb12872b2"
+        }
+      ]
+    },
+    {
+      "__guid": "0f25fa10-bf53-4fbe-9907-f6ebeafe8aa0",
+      "Flags": 0,
+      "Name": "Box",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "f1c1dcb2-1479-4741-82af-7ec85b8498c0",
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACk2MAQoAIAgDrSz7/4drBwoOjmKbczO7Ygg0hYuTHuB1hXgS/so\u002Bqi4vOdnOrb6NT15bJXy63JDz/\u002Bg6SXigAAAA",
+            "Positions": [
+              "-384,-256.0001,0",
+              "1408,-256.0004,0",
+              "1408,255.9996,0",
+              "-384,256,0"
+            ],
+            "TextureCoord": [
+              "22,4.000006",
+              "0,0",
+              "22,-3.999995",
+              "0,0",
+              "-6,-3.999999",
+              "0,0",
+              "-6,4.000001",
+              "0,0"
+            ],
+            "TextureUAxis": [
+              "1,0,0"
+            ],
+            "TextureVAxis": [
+              "0,-1,0"
+            ],
+            "TextureScale": [
+              "0.125,0.125"
+            ],
+            "TextureOffset": [
+              "0,0"
+            ],
+            "MaterialIndex": [
+              5
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/reflectivity_30.vmat",
+              "materials/wall/concrete_damaged_a.vmat",
+              "materials/trimsheets/concrete/concrete_trim_02.vmat",
+              "materials/concrete_f/rust_concrete_f.vmat",
+              "materials/concrete_d_bld.vmat",
+              "materials/generic/wall_concrete_painted_a.vmat"
+            ]
+          },
+          "SmoothingAngle": 40,
+          "Static": false
         }
       ]
     }
@@ -170,9 +264,14 @@
   },
   "Title": "train",
   "Description": "",
-  "LastSaved": "2024-06-24T21:57:21.0271021-07:00",
+  "LastSaved": "2024-06-25T13:35:19.3094225-07:00",
   "ResourceVersion": 1,
   "__references": [
+    "facepunch.concrete_trim_02",
+    "facepunch.wall_concrete_painted_a",
+    "fpopium.concrete_damaged_a",
+    "rust.concrete_d_bld",
+    "rustextended.concrete_f",
     "sboxmp.scientist_suit"
   ],
   "__version": 1
